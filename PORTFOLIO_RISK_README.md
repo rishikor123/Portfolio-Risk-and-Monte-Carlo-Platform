@@ -1,10 +1,10 @@
 # Portfolio Risk & Monte Carlo Platform
 
-An interactive quantitative risk-analytics platform for a multi-asset portfolio — built as a portfolio
+An interactive quantitative risk-analytics platform for a multi-asset portfolio built as a portfolio
 project demonstrating financial risk modeling, simulation, and dashboard-building skills for
 quant/risk analyst, portfolio analyst, and asset management roles.
 
-> Portfolio / educational project, not investment advice. See "Data & Methodology" below — the bundled
+> Portfolio / educational project, not investment advice. See "Data & Methodology" below, the bundled
 > dataset is a **calibrated synthetic** price history, not real historical prices.
 
 ## What's in here
