@@ -1,0 +1,11 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+streamlit>=1.30
+plotly>=5.18
+
+# Optional, only needed for live data mode (data/generate_dataset.py --live)
+# yfinance>=0.2.36
+
+# Optional, for running tests via pytest instead of `python tests/test_metrics.py`
+# pytest>=7.4
