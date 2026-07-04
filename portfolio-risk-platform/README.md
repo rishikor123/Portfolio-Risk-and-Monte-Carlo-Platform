@@ -43,7 +43,7 @@ python tests/test_metrics.py          # confirm everything is working (15/15 sho
 streamlit run dashboard/app.py        # launch the interactive dashboard
 ```
 
-The dashboard opens in your browser with live weight sliders — every metric, the efficient frontier,
+The dashboard opens in browser with live weight sliders, every metric, the efficient frontier,
 the correlation heatmap, and all three Monte Carlo engines recalculate as you drag them.
 
 ## Data & Methodology
@@ -111,7 +111,7 @@ portfolio-risk-platform/
 
 ## Known limitations
 
-- Bundled dataset is synthetic (calibrated, not actual historical prices) — see Data & Methodology.
+- Bundled dataset is synthetic (calibrated, not actual historical prices, see Data & Methodology.
 - Efficient frontier and simulations use long-only, fully-invested constraints (no shorting, no leverage)
   — a reasonable retail-portfolio default; relax the `bounds` in `efficient_frontier.py` for a version
   that allows shorting.
@@ -120,7 +120,7 @@ portfolio-risk-platform/
   project, flagged here rather than silently glossed over.
 - Risk-free rate is a single flat assumption (4.5%), not a term structure.
 
-## Suggested next extensions
+## Possible Next Extensions
 
 - Add a GARCH(1,1) volatility model to let the Monte Carlo engines simulate time-varying volatility
   instead of a constant annualized figure
